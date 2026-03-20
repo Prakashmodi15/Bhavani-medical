@@ -82,7 +82,7 @@
             formData.append('image[]', files[i]);
 
             try {
-                const response = await fetch('image_uploader.php', {
+                const response = await fetch('image_uploader.html', {
                     method: 'POST',
                     body: formData
                 });
